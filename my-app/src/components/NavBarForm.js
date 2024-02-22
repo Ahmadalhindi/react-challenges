@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import css from "./css/NavBarForm.module.css";
-
+import NavBarChild from "./NavBarChild";
 
 class NavBarForm extends Component {
     constructor(props) {
@@ -22,7 +22,7 @@ class NavBarForm extends Component {
                 <h1>My Gallery</h1>
 
                     {/* This is part of steps 1-8 */}
-                    {{/* 
+                    {/* {
                     this.state.isLoggedIn ? 
                         <button onClick={() => this.handleButtonClick()}>Login</button>
                         : 
@@ -34,7 +34,7 @@ class NavBarForm extends Component {
                             <input placeholder="password" id="password"/>
                             <button onClick={() => this.handleButtonClick()}>Submit</button>
                         </form>
-                     */}}
+                    }*/}
                 {/* This is how things should look after completing the extra task */}
 
                 <NavBarChild
