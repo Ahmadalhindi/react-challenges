@@ -34,7 +34,7 @@ class NavBarForm extends Component {
                             <input placeholder="password" id="password"/>
                             <button onClick={() => this.handleButtonClick()}>Submit</button>
                         </form>
-                    }*/}
+                     */}
                 {/* This is how things should look after completing the extra task */}
 
                 <NavBarChild
